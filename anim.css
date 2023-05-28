@@ -1,0 +1,33 @@
+/*! Day */
+
+/*? Circles */
+.circles-to-right{
+    transform: translateX(350px);
+}
+
+.circles-to-left{
+    transform: translateX(350px);
+    transition: all 1s;
+}
+
+/*? Clouds in-out */
+
+.cloud-1-anim-out{
+    transition: all 1s;
+    top: 170px;
+}
+
+.cloud-1-anim-in{
+    transition: all 1s;
+    top: -50px;
+}
+
+.cloud-2-anim-out{
+    transition: all .7s;
+    top: 140px;
+}
+
+.cloud-2-anim-in{
+    transition: all .7s;
+    top: -25px;
+}

@@ -6,24 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Toggle Switch</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anim.css">
 </head>
 <body>
     <div class="toggle-switch">
         <input type="checkbox" id="toggle" />
-        <label for="toggle">
+        <label for="toggle" class="labelToggle">
+            <div class="circles">
+                <div class="circle2 circle"></div>
+                <div class="circle2 circle"></div>
+                <div class="circle2 circle"></div>
+                <div class="circle2 circle"></div>
+            </div>
             <div class="day">
+                <!-- <div class="circle"></div> 
                 <div class="circle"></div> 
                 <div class="circle"></div> 
-                <div class="circle"></div> 
-                <div class="circle"></div> 
+                <div class="circle"></div>  -->
                 <img src="day.svg" class="day-img-1" alt="">
                 <img src="day-2.svg" class="day-img-2" alt="">
             </div>
             <div class="night hidden">
+                <!-- <div class="circle"></div>
                 <div class="circle"></div>
                 <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
+                <div class="circle"></div> -->
                 <img src="stars.svg" class="stars" alt="">
             </div>
         </label>

@@ -59,7 +59,7 @@ body{
     background-color: yellow;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
     border-radius: 50%;
-    transition: all .9s;
+    transition: all 1s;
 }
   
 
@@ -80,47 +80,6 @@ label div {
     z-index: -1;
 }
 
-.day .circle {
-    position: absolute;
-    border-radius: 50%;
-}
-
-.day .circle:nth-child(1) {
-    height: 400px;
-    width: 400px;
-    top: -100px;
-    left: -135px;
-    background-color: #7BB4E9;
-    z-index: -2;
-}
-
-.day .circle:nth-child(2){
-    height: 600px;
-    width: 600px;
-    top: -200px;
-    left: -250px;
-    background-color: #6EACE7;
-    z-index: -3;
-}
-
-.day .circle:nth-child(3){
-    height: 800px;
-    width: 800px;
-    top: -300px;
-    left: -350px;
-    background-color: #60A4E5;
-    z-index: -4;
-}
-
-.day .circle:nth-child(4){
-    height: 1000px;
-    width: 1000px;
-    top: -300px;
-    left: -350px;
-    background-color: #5099E0;
-    z-index: -5;
-}
-
 .day-img-1{
     position: absolute;
     top: -50px;
@@ -135,48 +94,53 @@ label div {
 
 /*! NIGHT */
 
-.night .circle {
-    position: absolute;
-    border-radius: 50%;
-}
-
-.night .circle:nth-child(1) {
-    height: 400px;
-    width: 400px;
-    top: -100px;
-    left: 330px;
-    background-color: #575963;
-    z-index: -2;
-}
-
-.night .circle:nth-child(2){
-    height: 600px;
-    width: 600px;
-    top: -200px;
-    left: 200px;
-    background-color: #464854;
-    z-index: -3;
-}
-
-.night .circle:nth-child(3){
-    height: 800px;
-    width: 800px;
-    top: -300px;
-    left: 100px;
-    background-color: #31333F;
-    z-index: -4;
-}
-
-.night .circle:nth-child(4){
-    height: 1000px;
-    width: 1000px;
-    top: -300px;
-    left: -100px;
-    background-color: #202230;
-    z-index: -5;
-}
 
 .stars{
     margin-left: 50px;
     margin-top: 20px;
+}
+
+/*! Circles */
+
+.circle{
+    transition: all 1s;
+}
+
+.circles .circle2:nth-child(1){
+    background-color: #7BB4E9;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    top: -25px;
+    z-index: -1;
+}
+
+.circles .circle2:nth-child(2){
+    background-color: #6EACE7;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    top: -100px;
+    left: -100px;
+    z-index: -2;
+}
+
+.circles .circle2:nth-child(3){
+    background-color: #60A4E5;
+    height: 650px;
+    width: 650px;
+    border-radius: 50%;
+    top: -200px;
+    left: -200px;
+    z-index: -3;
+}
+
+.circles .circle2:nth-child(4){
+    background-color: #5099E0;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    top: -200px;
+    left: -200px;
+    z-index: -4;
 }
